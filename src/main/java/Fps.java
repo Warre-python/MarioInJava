@@ -4,11 +4,9 @@ public class Fps {
     long time;
     double fps;
     public  void start() {
-        //this.start = System.currentTimeMillis();
         this.start = System.nanoTime();
     }
     public void stop() {
-        this.stop = System.currentTimeMillis();
         this.stop = System.nanoTime();
     }
     public double calculateFps() {
